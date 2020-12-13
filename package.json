@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "export NODE_ENV=development && node ./server/serve.js",
+    "start:production": "export NODE_ENV=production && node ./server/serve.js",
     "update": "npx npm-check-updates -u"
   },
   "keywords": [],
