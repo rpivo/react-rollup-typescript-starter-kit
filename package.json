@@ -23,7 +23,7 @@
     "@rollup/plugin-typescript": "^8.1.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "express-compression-server": "^1.1.5",
+    "express-compression-server": "^1.1.8",
     "nodemon": "^2.0.6",
     "rollup": "^2.35.1",
     "rollup-plugin-gzip": "^2.5.0",
