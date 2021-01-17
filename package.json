@@ -1,6 +1,6 @@
 {
   "name": "react-rollup-typescript-starter-kit",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start:production": "export NODE_ENV=production && node ./server/serve.js",
     "update": "npx npm-check-updates -u"
   },
-  "keywords": [],
+  "keywords": ["react", "rollup", "typescript", "starter", "kit"],
   "author": "",
   "license": "ISC",
   "dependencies": {
