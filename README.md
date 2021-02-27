@@ -5,4 +5,4 @@
 
 ⚠️  Node v14 (latest LTS) or newer.
 
-⚠️  NPM v7.
+⚠️  NPM v7 or newer.
