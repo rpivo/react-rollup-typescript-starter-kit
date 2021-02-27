@@ -46,7 +46,10 @@ export default {
       customCompression: content => brotliCompressSync(Buffer.from(content)),
       fileName: '.br',
     }),
-    replace({ 'process.env.NODE_ENV': JSON.stringify(NODE_ENV) }),
+    replace({
+      'process.env.NODE_ENV': JSON.stringify(NODE_ENV),
+      preventAssignment: true,
+    }),
     nodeResolve({
       browser: true,
     }),
