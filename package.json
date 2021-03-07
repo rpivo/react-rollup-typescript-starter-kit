@@ -1,10 +1,11 @@
 {
   "name": "react-rollup-typescript-starter-kit",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "build": "export NODE_ENV=production && npm run clean && rollup -c",
     "clean": "bash ./sh/clean.sh",
     "start": "export NODE_ENV=development && node ./server/serve.js",
     "start:production": "export NODE_ENV=production && node ./server/serve.js",
